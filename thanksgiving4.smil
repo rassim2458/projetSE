@@ -2,24 +2,26 @@
     <head>
         <layout>
             <!-- Slide 1 Regions -->
-            <region id="slide1_title" left="50px" top="20px" width="700px" height="50px" />
-            <region id="slide1_image" left="50px" top="80px" width="700px" height="300px" />
-            <region id="slide1_text" left="50px" top="400px" width="700px" height="100px" />
+            <region id="slide1_title" left="50px" top="20px" width="750px" height="200px" />
+            <region id="slide1_image" left="50px" top="80px" width="750px" height="600px" />
+            <region id="slide1_text" left="50px" top="600px" width="750px" height="100px" />
 
             <!-- Slide 2 Regions -->
-            <region id="slide2_title" left="50px" top="20px" width="700px" height="50px" />
-            <region id="slide2_image" left="50px" top="80px" width="700px" height="300px" />
-            <region id="slide2_text" left="50px" top="400px" width="700px" height="100px" />
+            <region id="slide2_title" left="50px" top="20px" width="750px" height="200px"  />
+            <region id="slide2_image" left="50px" top="80px" width="750px" height="600px" />
+            <region id="slide2_text" left="50px" top="600px" width="750px" height="100px" />
 
             <!-- Slide 3 Regions -->
-            <region id="slide3_title" left="50px" top="20px" width="700px" height="50px" />
-            <region id="slide3_image" left="50px" top="80px" width="700px" height="300px" />
-            <region id="slide3_text" left="50px" top="400px" width="700px" height="100px" />
+            <region id="slide3_title" left="50px" top="20px" width="1000px" height="900px" />
+            <region id="slide3_text" left="500px" top="120px" width="500px" height="200px" />
+            <region id="slide3_image" left="50px" top="120px" width="400px" height="300px" />
+            <region id="slide3_text2" left="100px" top="500px" width="500px" height="200px" />
+            <region id="slide3_image2" left="500px" top="400px" width="400px" height="300px" />
 
             <!-- Slide 4 Regions -->
-            <region id="slide4_title" left="50px" top="20px" width="700px" height="50px" />
-            <region id="slide4_image" left="50px" top="80px" width="700px" height="300px" />
-            <region id="slide4_text" left="50px" top="400px" width="700px" height="100px" />
+            <region id="slide4_title" left="50px" top="20px" width="750px" height="200px"  />
+            <region id="slide4_image" left="50px" top="80px" width="750px" height="600px" />
+            <region id="slide4_text" left="50px" top="600px" width="750px" height="100px" />
 
             <!-- Sound Region (Common for all slides) -->
             <region id="sound" left="0" top="0" width="0" height="0" />
@@ -46,8 +48,10 @@
         <!-- Slide 3 : Repas Traditionnels -->
         <par>
             <text src="repas.txt" region="slide3_title" dur="10s" />
-            <img src="thanksgiving_food.jpg" region="slide3_image" dur="10s" />
+            <img src="thanksgiving_food2.jpg" region="slide3_image" dur="10s" />
             <text src="repas2.txt" region="slide3_text" dur="10s" />
+            <img src="thanksgiving_food.jpg" region="slide3_image2" dur="10s" />
+            <text src="repas3.txt" region="slide3_text2" dur="10s" />
             <audio src="dinner_ambience.mp3" region="sound" dur="10s" />
         </par>
 
